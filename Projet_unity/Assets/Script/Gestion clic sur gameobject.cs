@@ -1,5 +1,14 @@
 using UnityEngine;
 
+/*
+Classe servant à faire apparaître un message lorsque l'on appuie sur un gameobject sur lequel il est appliqué 
+
+
+
+*/
+
+
+
 public class InteractionClic : MonoBehaviour
 {
     void Update()
