@@ -23,7 +23,7 @@ public class Carré : MonoBehaviour
         if (!droite_ou_gauche)
         {
             // Déplace le personnage vers la droite jusqu'à ce qu'il atteigne la position X de 5
-            personnage.PositionX += nb_cube*Time.deltaTime;
+            personnage.PositionX += 1*Time.deltaTime;
 
             // Si le personnage atteint la position X de 5, inverse la direction
             if (personnage.PositionX >= 5)
@@ -35,7 +35,7 @@ public class Carré : MonoBehaviour
         else
         {
             // Déplace le personnage vers la gauche jusqu'à ce qu'il atteigne la position X de 0
-            personnage.PositionX -= nb_cube*Time.deltaTime ;
+            personnage.PositionX -= 1*Time.deltaTime ;
 
             // Si le personnage atteint la position X de 0, réinitialise la direction
             if (personnage.PositionX <= 0)
