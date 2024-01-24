@@ -49,6 +49,12 @@ public class Carré : MonoBehaviour
         foreach (GameObject cube in cubes)
         {
             cube.transform.position = new Vector3(personnage.PositionX, personnage.PositionY, 0f);
+
+            // Ajoutez le script InteractionClic s'il n'est pas déjà attaché
+            if (cube.GetComponent<InteractionClic>() == null)
+            {
+                cube.AddComponent<InteractionClic>();
+            }
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
