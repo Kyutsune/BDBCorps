@@ -5,11 +5,10 @@ using UnityEngine;
 Classe servant à créer au début un carré puis de plus en plus à mesure qu'il touche des bords délimités (x:0,y:0,z:0/x:5,y:0,z:0)
 
 Cette classe peut également permettre de supprimer des carrés en appuyant sur la touche e 
-ainsi que de changer la direction d'ou va le carré avec la touche c
+ainsi    que de changer la direction d'ou va le carré avec la touche c
 On peut également arrêter ou recommencer son trajet à l'aide de la touche v
 
 Les carrés peuvent aussi être cliqués pour faire certaines choses,cf (Gestion clic sur gameobject.cs)
-
 */
 
 
