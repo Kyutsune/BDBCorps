@@ -686,6 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lerpSpeed: 30
+  moveSpeed: 2
 --- !u!1 &1504495587
 GameObject:
   m_ObjectHideFlags: 0
