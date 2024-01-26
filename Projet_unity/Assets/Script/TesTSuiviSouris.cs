@@ -37,7 +37,7 @@ public class Souris : MonoBehaviour
                 if (hit.collider.gameObject == gameObject)
                 {
                     // Interpolez la position actuelle vers la position du clic
-                    transform.position = Vector3.Lerp(transform.position, posClickWorld, lerpSpeed * Time.deltaTime);
+                    transform.position = Vector3.Lerp(transform.position, posClickWorld, lerpSpeed);
                     if (Input.GetKey(KeyCode.P))
                     {
                         // Eloigne l'objet
