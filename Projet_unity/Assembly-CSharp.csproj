@@ -68,6 +68,7 @@
     <Compile Include="Assets\Script\Classe générique\Personnage.cs" />
     <Compile Include="Assets\Script\Gestion clic sur gameobject.cs" />
     <Compile Include="Assets\Script\Gestion_TextMeshPro.cs" />
+    <Compile Include="Assets\Script\Menu.cs" />
     <Compile Include="Assets\Script\Bouger_camera.cs" />
   </ItemGroup>
   <ItemGroup>
