@@ -352,12 +352,14 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Applications/Unity/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Applications/Unity/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Script/Bouger_camera.cs"
-"Assets/Script/Carré.cs"
-"Assets/Script/Classe générique/Personnage.cs"
-"Assets/Script/Gestion clic sur gameobject.cs"
-"Assets/Script/Gestion_TextMeshPro.cs"
-"Assets/Script/TesTSuiviSouris.cs"
+"Assets/Script/Jeu.cs"
+"Assets/Script/TesT/Bouger_camera.cs"
+"Assets/Script/TesT/Carré.cs"
+"Assets/Script/TesT/Classe générique/Personnage.cs"
+"Assets/Script/TesT/Gestion clic sur gameobject.cs"
+"Assets/Script/TesT/Gestion_TextMeshPro.cs"
+"Assets/Script/TesT/TesTSuiviSouris.cs"
+"Assets/Script/Unite.cs"
 -langversion:9.0
 
 /deterministic
