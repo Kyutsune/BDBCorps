@@ -353,6 +353,7 @@
 -analyzer:"D:/Applications/Unity/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Applications/Unity/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/Jeu.cs"
+"Assets/Script/Menu.cs"
 "Assets/Script/TesT/Bouger_camera.cs"
 "Assets/Script/TesT/Carré.cs"
 "Assets/Script/TesT/Classe générique/Personnage.cs"
