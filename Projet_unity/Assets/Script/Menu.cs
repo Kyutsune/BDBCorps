@@ -1,28 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Drag : MonoBehaviour
 {
-    Vector3 mousePosition;
-
-    private Vector3 GetMousePos()
+    public void changeScene(string sceneName)
     {
-        return Camera.main.WorldToScreenPoint(transform.position);
+        SceneManager.LoadScene(sceneName);
     }
 
-    private void OnMouseDown()
+    public void Quit()
     {
-        Debug.Log("fonctionne");
-        mousePosition= Input.mousePosition - GetMousePos();
-        
+        Application.Quit();
     }
-
-    private void OnMouseDrag()
-    {
-        transform.position=Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
-    }
-
 
 }
  
