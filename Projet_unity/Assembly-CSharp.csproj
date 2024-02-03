@@ -67,12 +67,12 @@
     <Compile Include="Assets\Script\TesT\Gestion clic sur gameobject.cs" />
     <Compile Include="Assets\Script\Jeu.cs" />
     <Compile Include="Assets\Script\TesT\Carré.cs" />
+    <Compile Include="Assets\Script\MenuControler.cs" />
     <Compile Include="Assets\Script\TesT\Bouger_camera.cs" />
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\Script\TesT\Classe générique\Personnage.cs" />
     <Compile Include="Assets\Script\TesT\Gestion_TextMeshPro.cs" />
     <Compile Include="Assets\Script\Unite.cs" />
-    <Compile Include="Assets\Script\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
